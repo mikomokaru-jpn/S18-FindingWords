@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0550EE1725BB81B900F7B7E3 /* UATableViewMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0550EE1625BB81B900F7B7E3 /* UATableViewMgr.swift */; };
+		0550EE1925BBD30800F7B7E3 /* Int+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0550EE1825BBD30800F7B7E3 /* Int+Bool.swift */; };
+		0550EE2125BBD7F300F7B7E3 /* ObjcLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550EE2025BBD7F300F7B7E3 /* ObjcLib.m */; };
+		0550EE2325BBED2D00F7B7E3 /* String+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0550EE2225BBED2D00F7B7E3 /* String+Search.swift */; };
+		05F0200625BB0CBE007FF11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0200525BB0CBE007FF11B /* AppDelegate.swift */; };
+		05F0200825BB0CBE007FF11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F0200725BB0CBE007FF11B /* Assets.xcassets */; };
+		05F0200B25BB0CBE007FF11B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F0200925BB0CBE007FF11B /* MainMenu.xib */; };
+		05F0201425BB16F7007FF11B /* UASearchMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0201325BB16F7007FF11B /* UASearchMgr.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0550EE1625BB81B900F7B7E3 /* UATableViewMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UATableViewMgr.swift; sourceTree = "<group>"; };
+		0550EE1825BBD30800F7B7E3 /* Int+Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Bool.swift"; sourceTree = "<group>"; };
+		0550EE1E25BBD7F200F7B7E3 /* FindingWords-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindingWords-Bridging-Header.h"; sourceTree = "<group>"; };
+		0550EE1F25BBD7F300F7B7E3 /* ObjcLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcLib.h; sourceTree = "<group>"; };
+		0550EE2025BBD7F300F7B7E3 /* ObjcLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcLib.m; sourceTree = "<group>"; };
+		0550EE2225BBED2D00F7B7E3 /* String+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Search.swift"; sourceTree = "<group>"; };
+		05877CD12667132D009AA712 /* FindingWordsDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindingWordsDebug.entitlements; sourceTree = "<group>"; };
+		05F0200225BB0CBE007FF11B /* FindingWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindingWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F0200525BB0CBE007FF11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F0200725BB0CBE007FF11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F0200A25BB0CBE007FF11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		05F0200C25BB0CBE007FF11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F0200D25BB0CBE007FF11B /* FindingWords.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindingWords.entitlements; sourceTree = "<group>"; };
+		05F0201325BB16F7007FF11B /* UASearchMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UASearchMgr.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F01FFF25BB0CBE007FF11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F01FF925BB0CBE007FF11B = {
+			isa = PBXGroup;
+			children = (
+				05F0200425BB0CBE007FF11B /* FindingWords */,
+				05F0200325BB0CBE007FF11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F0200325BB0CBE007FF11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F0200225BB0CBE007FF11B /* FindingWords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F0200425BB0CBE007FF11B /* FindingWords */ = {
+			isa = PBXGroup;
+			children = (
+				05877CD12667132D009AA712 /* FindingWordsDebug.entitlements */,
+				05F0200525BB0CBE007FF11B /* AppDelegate.swift */,
+				05F0201325BB16F7007FF11B /* UASearchMgr.swift */,
+				0550EE1625BB81B900F7B7E3 /* UATableViewMgr.swift */,
+				0550EE1825BBD30800F7B7E3 /* Int+Bool.swift */,
+				0550EE2225BBED2D00F7B7E3 /* String+Search.swift */,
+				0550EE1F25BBD7F300F7B7E3 /* ObjcLib.h */,
+				0550EE2025BBD7F300F7B7E3 /* ObjcLib.m */,
+				0550EE1E25BBD7F200F7B7E3 /* FindingWords-Bridging-Header.h */,
+				05F0200725BB0CBE007FF11B /* Assets.xcassets */,
+				05F0200925BB0CBE007FF11B /* MainMenu.xib */,
+				05F0200C25BB0CBE007FF11B /* Info.plist */,
+				05F0200D25BB0CBE007FF11B /* FindingWords.entitlements */,
+			);
+			path = FindingWords;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F0200125BB0CBE007FF11B /* FindingWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F0201025BB0CBE007FF11B /* Build configuration list for PBXNativeTarget "FindingWords" */;
+			buildPhases = (
+				05F01FFE25BB0CBE007FF11B /* Sources */,
+				05F01FFF25BB0CBE007FF11B /* Frameworks */,
+				05F0200025BB0CBE007FF11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindingWords;
+			productName = FindingWords;
+			productReference = 05F0200225BB0CBE007FF11B /* FindingWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F01FFA25BB0CBE007FF11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "権兵衛";
+				TargetAttributes = {
+					05F0200125BB0CBE007FF11B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 05F01FFD25BB0CBE007FF11B /* Build configuration list for PBXProject "FindingWords" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F01FF925BB0CBE007FF11B;
+			productRefGroup = 05F0200325BB0CBE007FF11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F0200125BB0CBE007FF11B /* FindingWords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F0200025BB0CBE007FF11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F0200825BB0CBE007FF11B /* Assets.xcassets in Resources */,
+				05F0200B25BB0CBE007FF11B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F01FFE25BB0CBE007FF11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F0200625BB0CBE007FF11B /* AppDelegate.swift in Sources */,
+				05F0201425BB16F7007FF11B /* UASearchMgr.swift in Sources */,
+				0550EE1725BB81B900F7B7E3 /* UATableViewMgr.swift in Sources */,
+				0550EE1925BBD30800F7B7E3 /* Int+Bool.swift in Sources */,
+				0550EE2325BBED2D00F7B7E3 /* String+Search.swift in Sources */,
+				0550EE2125BBD7F300F7B7E3 /* ObjcLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F0200925BB0CBE007FF11B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F0200A25BB0CBE007FF11B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F0200E25BB0CBE007FF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F0200F25BB0CBE007FF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		05F0201125BB0CBE007FF11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FindingWords/FindingWordsDebug.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FindingWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.FindingWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindingWords/FindingWords-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		05F0201225BB0CBE007FF11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PQ3KYWJ67T;
+				INFOPLIST_FILE = FindingWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikomokaru.FindingWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindingWords/FindingWords-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F01FFD25BB0CBE007FF11B /* Build configuration list for PBXProject "FindingWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F0200E25BB0CBE007FF11B /* Debug */,
+				05F0200F25BB0CBE007FF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F0201025BB0CBE007FF11B /* Build configuration list for PBXNativeTarget "FindingWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F0201125BB0CBE007FF11B /* Debug */,
+				05F0201225BB0CBE007FF11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F01FFA25BB0CBE007FF11B /* Project object */;
+}
