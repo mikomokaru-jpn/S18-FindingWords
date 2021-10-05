@@ -12,3 +12,7 @@ Display file names that contains search terms in its text string. The items are 
 You can open the file with editor or browser, if you select a record of the table view and double-click it.
 Click list display button to output the data to a file and open it with the same application as above.
 Output destination： ~/Documents/DirectoryTraverse.txt
+
+## You can specify the following search conditions
+### (1) Multiple search terms
+AND search that AND oerator is true is all search terms are included in the file. And OR search that OR operator is true is at least one search term is included in the file.
