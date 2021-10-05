@@ -7,3 +7,8 @@ It searches all text files under a specific folder, including subfolders, and di
 
 <img src="http://mikomokaru.sakura.ne.jp/data/B40/findingWords1.png" alt="findingWords1" title="findingWords1" width="400">
 
+## Display items
+Display file names that contains search terms in its text string. The items are the folder name, the file name, the number of search terms contained in the file, and the file size (number of bytes). Records can be sorted using each item as a key. Clicking on a column heading of the table view, the records are sorted by ascending or descending order that toggled.
+You can open the file with editor or browser, if you select a record of the table view and double-click it.
+Click list display button to output the data to a file and open it with the same application as above.
+Output destination： ~/Documents/DirectoryTraverse.txt
