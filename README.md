@@ -13,6 +13,25 @@ You can open the file with editor or browser, if you select a record of the tabl
 Click list display button to output the data to a file and open it with the same application as above.
 Output destination： ~/Documents/DirectoryTraverse.txt
 
-## You can specify the following search conditions
+### You can specify the following search conditions
 ### (1) Multiple search terms
 AND search that AND oerator is true is all search terms are included in the file. And OR search that OR operator is true is at least one search term is included in the file.
+
+### (2) Limitting files to be searched by a extention
+You can limmit the files to be searched by specifying a file extension that could be with a wild card (*). Also you can enter multiple extensions. If the exclusion check box is on, on the contrary, files with the specified extension will not be searched.
+
+### (3) Specifying the search method
+You can select either range (of :) method of String class or regular expression object as the search method. The former does not support regular expression function.
+
+### (4) Case sensitive
+You can choose to be Case sensitive or not.
+
+### Select the application to open file
+You can select an application from the menu.
+
+### Save the current state and options
+The size of the window, the width of the columns in the table view, and the order of the columns are saved in User Default when the application is ended. Selection values of menus which are search method, application for opening file, and case sensitive are also saved. These changes made by a user is carried over to the next time when the application starts.
+
+
+
+
