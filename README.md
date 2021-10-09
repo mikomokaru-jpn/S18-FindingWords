@@ -1,4 +1,4 @@
-## macOS S18_FindingWords
+## macOS_S_FindingWords 
 ## Full-text search traversing a specified directory
 Confirmed operation: MacOS 10.14.6 / Xcode 11.3.1
 
